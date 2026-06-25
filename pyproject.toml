@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "feedmosaic"
+version = "0.3.0"
+description = "A small, dependency-free multi-vertical RSS/Atom feed aggregator with a curated publisher catalog."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["rss", "atom", "feeds", "aggregator", "news", "syndication"]
+authors = [{ name = "feedmosaic contributors" }]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
+    "Topic :: Text Processing :: Markup :: XML",
+]
+dependencies = []
+
+[project.optional-dependencies]
+full = ["feedparser>=6.0"]
+dev = ["pytest>=7"]
+
+[project.urls]
+Documentation = "https://feedmosaic.readthedocs.io"
+Source = "https://github.com/ai2humanize-blip/feedmosaic"
+
+[tool.setuptools.packages.find]
+where = ["src"]
