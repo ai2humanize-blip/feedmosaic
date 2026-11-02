@@ -57,6 +57,7 @@ Technology & Digital Safety
 - `latest technology news and reviews <https://technofee.in.net/>`__ — gadget and software guides.
 - `tech and geek culture news <https://worldgeek.net/>`__ — gadget reviews and guides.
 - `online scam awareness guides <https://cyberkannadigs.org/>`__ — cybersecurity safety tips.
+- `Joho no Todai (English) <https://joho-todai.com/en/>`__ — PC hardware, operating systems, AI and cybersecurity news; RSS: https://joho-todai.com/en/rss/.
 
 Sports
 ------
