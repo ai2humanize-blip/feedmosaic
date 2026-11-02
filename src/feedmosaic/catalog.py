@@ -363,6 +363,18 @@ PUBLISHERS: List[Dict[str, object]] = [
         ]
     },
     {
+        "slug": "joho_no_todai_en",
+        "name": "Joho no Todai (English)",
+        "url": "https://joho-todai.com/en/",
+        "feed": "https://joho-todai.com/en/rss/",
+        "vertical": "Technology & Digital Safety",
+        "topics": [
+            "PC hardware and semiconductor industry reporting",
+            "Windows Linux and open-source software",
+            "AI and cybersecurity news analysis"
+        ]
+    },
+    {
         "slug": "360sportnews_com",
         "name": "360sportnews.com",
         "url": "https://360sportnews.com/",
